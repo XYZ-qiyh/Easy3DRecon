@@ -12,7 +12,7 @@ if __name__ == "__main__":
     video_path = args.video_path
     sample_interval = args.sample_interval
 	
-	# mkdir for images
+    # mkdir for images
     output_folder = os.path.splitext(video_path)[0]
     print("output_folder: {}".format(output_folder))
     if not os.path.exists(output_folder):
